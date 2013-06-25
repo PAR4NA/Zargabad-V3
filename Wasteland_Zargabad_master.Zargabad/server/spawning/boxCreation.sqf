@@ -23,7 +23,7 @@ switch(_selectedBox) do {
         
         // Add new weapons before ammunition
         _currBox addWeaponCargoGlobal ["M16A4",4];
-		_currBox addWeaponCargoGlobal ["BAF_AS50_scoped",5];
+		_currBox addWeaponCargoGlobal ["BAF_AS50_scoped",2];
 		_currBox addWeaponCargoGlobal ["Binocular_Vector",20];
 		_currBox addWeaponCargoGlobal ["M16A4_GL",4];
 		_currBox addWeaponCargoGlobal ["M16A2",4];
@@ -33,17 +33,16 @@ switch(_selectedBox) do {
 		_currBox addWeaponCargoGlobal ["M249_EP1",4];
 		_currBox addWeaponCargoGlobal ["M249_m145_EP1",4];
 		_currBox addWeaponCargoGlobal ["Mk_48_DES_EP1",4];
-		_currBox addWeaponCargoGlobal ["M249_TWS_EP1",4];
 		_currBox addWeaponCargoGlobal ["SMAW",5];
-		_currBox addWeaponCargoGlobal ["Javelin",5];
+		_currBox addWeaponCargoGlobal ["Javelin",2];
 		_currBox addWeaponCargoGlobal ["M240_scoped_EP1",4];
 				       
         // Add ammunition
         _currBox addMagazineCargoGlobal ["15Rnd_9x19_M9",24];
 		_currBox addMagazineCargoGlobal ["SMAW_HEAA",30];
         _currBox addMagazineCargoGlobal ["10Rnd_127x99_m107",30];
-		_currBox addMagazineCargoGlobal ["Javelin",30];
-		_currBox addMagazineCargoGlobal ["5Rnd_127x99_as50",30];
+		_currBox addMagazineCargoGlobal ["Javelin",5];
+		_currBox addMagazineCargoGlobal ["5Rnd_127x99_as50",10];
 		_currBox addMagazineCargoGlobal ["100Rnd_762x51_M240",24];
 		_currBox addMagazineCargoGlobal ["100Rnd_556x45_M249",24];
 		_currBox addMagazineCargoGlobal ["100Rnd_556x45_PK",24];
@@ -64,8 +63,8 @@ switch(_selectedBox) do {
 		_currBox addWeaponCargoGlobal ["M4A1_RCO_GL",5];
 		_currBox addWeaponCargoGlobal ["M1014",5];
 		_currBox addWeaponCargoGlobal ["M9",5];
-		_currBox addWeaponCargoGlobal ["KSVK",5];                    
-        _currBox addWeaponCargoGlobal ["m107",5]; 
+		_currBox addWeaponCargoGlobal ["KSVK",2];                    
+        _currBox addWeaponCargoGlobal ["m107",2]; 
 		_currBox addWeaponCargoGlobal ["Binocular_Vector",20];
         _currBox addWeaponCargoGlobal ["M110_NVG_EP1",5];            
         _currBox addWeaponCargoGlobal ["M24_des_EP1",5];             
@@ -104,14 +103,13 @@ switch(_selectedBox) do {
 		_currBox addWeaponCargoGlobal ["MakarovSD",5];
 		_currBox addWeaponCargoGlobal ["Binocular_Vector",20];
         _currBox addWeaponCargoGlobal ["AK_47_M",5];
-		_currBox addWeaponCargoGlobal ["AKS_74_GOSHAWK",5];
 		_currBox addWeaponCargoGlobal ["AK_47_S",5];
 		_currBox addWeaponCargoGlobal ["AK_74",5]; 
 		_currBox addWeaponCargoGlobal ["AK_107_GL_pso",5]; 
         _currBox addWeaponCargoGlobal ["AKS_74_pso",5];
 	    _currBox addWeaponCargoGlobal ["AKS_74_UN_kobra",5];
-	    _currBox addWeaponCargoGlobal ["Stinger",5];               
-        _currBox addWeaponCargoGlobal ["Strela",5];
+	    _currBox addWeaponCargoGlobal ["Stinger",2];               
+        _currBox addWeaponCargoGlobal ["Strela",2];
 		_currBox addWeaponCargoGlobal ["RPG7V",5];
 		_currBox addWeaponCargoGlobal ["RPG18",5]; 
 									   
@@ -121,10 +119,10 @@ switch(_selectedBox) do {
 	    _currBox addMagazineCargoGlobal ["8Rnd_9x18_MakarovSD",24];
         _currBox addMagazineCargoGlobal ["HandGrenade",10];
         _currBox addMagazineCargoGlobal ["1Rnd_HE_GP25",15];
-		_currBox addMagazineCargoGlobal ["Strela",20];
+		_currBox addMagazineCargoGlobal ["Strela",10];
 		_currBox addMagazineCargoGlobal ["RPG18",20];  
 		_currBox addMagazineCargoGlobal ["RPG7V",20]; 
-		_currBox addMagazineCargoGlobal ["Stinger",20]; 
+		_currBox addMagazineCargoGlobal ["Stinger",10]; 
         _currBox addMagazineCargoGlobal ["1Rnd_SMOKE_GP25",15];
     };
     case "basicRU2": { // More Ak's and some shotguns and other crap
@@ -151,8 +149,8 @@ switch(_selectedBox) do {
         _currBox addMagazineCargoGlobal ["30Rnd_762x39_AK47",35];
         _currBox addMagazineCargoGlobal ["8Rnd_9x18_Makarov",24];
         _currBox addMagazineCargoGlobal ["HandGrenade",30];
-		_currBox addMagazineCargoGlobal ["Strela",20];
-	    _currBox addMagazineCargoGlobal	["Igla",20];
+		_currBox addMagazineCargoGlobal ["Strela",10];
+	    _currBox addMagazineCargoGlobal	["Igla",10];
 	    _currBox addMagazineCargoGlobal	["1Rnd_HE_M203",50];
 	    _currBox addMagazineCargoGlobal	["6Rnd_HE_M203",50];
         _currBox addMagazineCargoGlobal ["8Rnd_B_Saiga12_74Slug",25];
@@ -228,7 +226,6 @@ switch(_selectedBox) do {
         
         // Add new weapons before ammunition
         _currBox addWeaponCargoGlobal ["M8_compact_pmc",5];
-	    _currBox addWeaponCargoGlobal ["M8_tws_sd",5];
         _currBox addWeaponCargoGlobal ["M8_holo_sd",5];
 		_currBox addWeaponCargoGlobal ["Binocular_Vector",20];
         _currBox addWeaponCargoGlobal ["M8_compact_pmc",5];

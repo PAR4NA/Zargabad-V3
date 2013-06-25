@@ -12,11 +12,13 @@ serverSpawning = 1;
 
 //Execute Server Side Scripts.
 [] execVM "server\admins.sqf";
+[] execVM "server\donators.sqf";
 [] execVM "server\functions\serverVars.sqf";
 _serverCompiledScripts = [] execVM "server\functions\serverCompile.sqf";
 [] execVM "server\functions\broadcaster.sqf";
 [] execVM "server\functions\relations.sqf";
 [] execVM "server\functions\serverTimeSync.sqf";
+//[] execVM "server\functions\antiCheatServer.sqf";
 waitUntil{scriptDone _serverCompiledScripts};
 
 diag_log format["WASTELAND SERVER - Server Complie Finished"];

@@ -37,7 +37,8 @@ class Mission
 		"caweapons_pmc",
 		"cawheeled_pmc_armoredsuv",
 		"CAAir2_MQ9PredatorB",
-		"CAAir_E"
+		"CAAir_E",
+		"caweapons"
 	};
 	addOnsAuto[]=
 	{
@@ -45,6 +46,7 @@ class Mission
 		"ca_modules_functions",
 		"cacharacters_e",
 		"cacharacters2",
+		"caweapons",
 		"camisc3",
 		"caweapons_ammoboxes",
 		"ca_baf",
@@ -73,7 +75,7 @@ class Mission
 	randomSeed=15307759;
 	class Intel
 	{
-		briefingName="WASTELAND ZARGABAD 2.9 Edited by Switcher";
+		briefingName="WASTELAND ZARGABAD 3.0 Edited by Switcher";
 		briefingDescription="FPS Underground wasteland Zargabad server. fpsunderground.com";
 		resistanceWest=0;
 		startWeather=0.31198925;
@@ -86,7 +88,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=37;
+		items=40;
 		class Item0
 		{
 			side="LOGIC";
@@ -1328,6 +1330,60 @@ class Mission
 				};
 			};
 		};
+		class Item37
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3489.3899,22.259298,4353.1392};
+					id=174;
+					side="GUER";
+					vehicle="SearchLight_Gue";
+					player="PLAYER GUNNER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item38
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4874.228,17.174526,3817.6807};
+					id=175;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="bld=""Land_Fort_Watchtower_EP1"" createvehiclelocal (getposasl this);bld setdir (getdir this);";
+				};
+			};
+		};
+		class Item39
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4390.4824,15.81938,4522.584};
+					id=176;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="bld=""Land_Fort_Watchtower_EP1"" createvehiclelocal (getposasl this);bld setdir (getdir this);";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -1595,8 +1651,8 @@ class Mission
 		};
 		class Item26
 		{
-			position[]={3432.2756,21.406658,4364.9541};
-			azimut=269.11282;
+			position[]={3415.7529,21.660368,4360.1074};
+			azimut=180;
 			id=48;
 			side="EMPTY";
 			vehicle="An2_TK_EP1";
@@ -1605,8 +1661,8 @@ class Mission
 		};
 		class Item27
 		{
-			position[]={3369.582,16.380337,4364.3062};
-			azimut=89.728172;
+			position[]={3389.1892,21.53459,4358.1382};
+			azimut=180;
 			id=49;
 			side="EMPTY";
 			vehicle="An2_2_TK_CIV_EP1";
@@ -1615,7 +1671,7 @@ class Mission
 		};
 		class Item28
 		{
-			position[]={3517.4739,22.35,4174.6167};
+			position[]={3511.7202,22.285744,4331.6904};
 			azimut=91.061806;
 			id=50;
 			side="EMPTY";
@@ -1625,7 +1681,7 @@ class Mission
 		};
 		class Item29
 		{
-			position[]={3518.7559,22.35,4132.0156};
+			position[]={4225.248,15.976244,4453.9517};
 			azimut=-94.338104;
 			id=51;
 			side="EMPTY";
@@ -1635,7 +1691,7 @@ class Mission
 		};
 		class Item30
 		{
-			position[]={3554.0283,22.327007,4084.7178};
+			position[]={3619.8572,20.733349,4011.7446};
 			id=52;
 			side="EMPTY";
 			vehicle="Ka137_PMC";
@@ -1654,7 +1710,7 @@ class Mission
 		class Item32
 		{
 			presence=0.11428414;
-			position[]={3517.6497,22.35,4108.4082};
+			position[]={3519.6567,22.35,4122.4575};
 			azimut=-80.926376;
 			id=54;
 			side="EMPTY";
@@ -1664,7 +1720,7 @@ class Mission
 		};
 		class Item33
 		{
-			position[]={3521.0654,22.35,4075.6055};
+			position[]={3522.2698,22.35,3983.2798};
 			azimut=-88.329887;
 			id=55;
 			side="EMPTY";
@@ -1674,7 +1730,7 @@ class Mission
 		};
 		class Item34
 		{
-			position[]={3517.8208,22.331718,4231.4028};
+			position[]={3516.29,22.428572,4277.3306};
 			azimut=-87.99678;
 			id=56;
 			side="EMPTY";
@@ -1684,7 +1740,7 @@ class Mission
 		};
 		class Item35
 		{
-			position[]={3521.8379,22.35,4048.5806};
+			position[]={3857.7744,15.809502,4222.0996};
 			azimut=-100.72379;
 			id=57;
 			side="EMPTY";
@@ -2070,7 +2126,7 @@ class Mission
 		};
 		class Item83
 		{
-			position[]={3505.302,22.367451,3959.7651};
+			position[]={3874.6848,15.250534,4340.0796};
 			id=105;
 			side="EMPTY";
 			vehicle="ArmoredSUV_PMC";
@@ -2079,7 +2135,7 @@ class Mission
 		};
 		class Item84
 		{
-			position[]={3506.8281,22.374037,3929.7373};
+			position[]={3661.0254,13.963091,4207.0615};
 			id=106;
 			side="EMPTY";
 			vehicle="ArmoredSUV_PMC";
@@ -2088,7 +2144,7 @@ class Mission
 		};
 		class Item85
 		{
-			position[]={3431.6306,22.35,3549.9224};
+			position[]={3416.8704,22.35,3551.9053};
 			id=107;
 			side="EMPTY";
 			vehicle="MQ9PredatorB";
@@ -2097,7 +2153,7 @@ class Mission
 		};
 		class Item86
 		{
-			position[]={3363.0393,20.285154,3549.4585};
+			position[]={3390.1365,22.35,3553.4238};
 			id=108;
 			side="EMPTY";
 			vehicle="MQ9PredatorB_US_EP1";
@@ -2107,7 +2163,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=854;
+		items=855;
 		class Item0
 		{
 			position[]={4213.2988,22.218012,3542.8093};
@@ -2166,14 +2222,14 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={3107.2876,62.29493,6206.9917};
+			position[]={3966.6633,37.177696,5461.769};
 			name="heliSpawn_1";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item9
 		{
-			position[]={4081.9526,51.135483,1056.2275};
+			position[]={4065.8425,33.978539,1816.2803};
 			name="heliSpawn_2";
 			type="Empty";
 			colorName="ColorBlue";
@@ -3291,7 +3347,7 @@ class Mission
 		};
 		class Item195
 		{
-			position[]={2955.1118,29.026423,5091.7319};
+			position[]={3434.2695,22,3870.564};
 			name="Spawn_184";
 			type="Empty";
 		};
@@ -3669,7 +3725,7 @@ class Mission
 		};
 		class Item250
 		{
-			position[]={4929.6685,15.172477,3782.6084};
+			position[]={4805.4736,17.499819,3788.0732};
 			name="Mission_48";
 			type="Empty";
 			colorName="ColorGreen";
@@ -3711,70 +3767,70 @@ class Mission
 		};
 		class Item256
 		{
-			position[]={6372.5918,119.56186,3242.9507};
+			position[]={5335.3315,45.875195,3587.5439};
 			name="heliSpawn_3";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item257
 		{
-			position[]={1722.8,162.47739,2070.7734};
+			position[]={3071.1572,8.312705,2679.3901};
 			name="heliSpawn_4";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item258
 		{
-			position[]={1627.6073,136.71696,3616.5825};
+			position[]={2807.7051,34.23008,3928.7197};
 			name="heliSpawn_5";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item259
 		{
-			position[]={6130.9482,153.12587,1470.0322};
+			position[]={5225.9561,44.501221,2681.3291};
 			name="heliSpawn_6";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item260
 		{
-			position[]={6065.0464,49.493824,5719.1758};
+			position[]={5209.9785,8.2111273,4353.6523};
 			name="heliSpawn_16";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item261
 		{
-			position[]={1525.092,113.79212,891.26904};
+			position[]={2725.9468,15.955258,2461.0811};
 			name="heliSpawn_8";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item262
 		{
-			position[]={6819.2637,138.67766,4393.1504};
+			position[]={5117.1816,20.364843,3279.3145};
 			name="heliSpawn_9";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item263
 		{
-			position[]={3736.4897,67.746239,-236.95117};
+			position[]={4331.6958,16.948175,2324.8711};
 			name="heliSpawn_10";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item264
 		{
-			position[]={1642.6211,171.554,5663.98};
+			position[]={3436.041,22,4043.0571};
 			name="heliSpawn_11";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item265
 		{
-			position[]={4509.7104,75.655205,6939.9038};
+			position[]={4096.1758,39.400539,5862.9927};
 			name="heliSpawn_12";
 			type="Empty";
 			colorName="ColorBlue";
@@ -3787,14 +3843,14 @@ class Mission
 		};
 		class Item267
 		{
-			position[]={665.20435,119.61827,1929.3423};
+			position[]={3496.344,22.35,3668.001};
 			name="heliSpawn_14";
 			type="Empty";
 			colorName="ColorBlue";
 		};
 		class Item268
 		{
-			position[]={6054.9595,78.999504,4518.4424};
+			position[]={5197.9507,28.196093,6090.0801};
 			name="heliSpawn_15";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -3818,7 +3874,7 @@ class Mission
 		};
 		class Item271
 		{
-			position[]={2708.2231,115.66288,6800.2764};
+			position[]={3250.9868,32.495785,5225.832};
 			name="heliSpawn_19";
 			type="Empty";
 			colorName="ColorBlue";
@@ -6909,7 +6965,7 @@ class Mission
 		};
 		class Item786
 		{
-			position[]={1959.834,38.132813,4584.792};
+			position[]={3315.1667,14.817054,3659.3325};
 			name="Spawn_712";
 			type="Empty";
 		};
@@ -6933,7 +6989,7 @@ class Mission
 		};
 		class Item790
 		{
-			position[]={2059.7251,37.851704,4557.4365};
+			position[]={3543.7458,14.958056,4431.4863};
 			name="Spawn_716";
 			type="Empty";
 		};
@@ -7314,6 +7370,14 @@ class Mission
 			position[]={3467.8555,25.161503,4928.918};
 			name="Spawn_779";
 			type="Empty";
+		};
+		class Item854
+		{
+			position[]={4910.9199,15.416644,3789.2368};
+			name="OpForBase";
+			text="OpForBase";
+			type="Empty";
+			colorName="ColorRed";
 		};
 	};
 };

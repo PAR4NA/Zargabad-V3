@@ -50,6 +50,15 @@ publicVariable "currentInvites";
                   
 "PlayerCDeath" addPublicVariableEventHandler {_id = (_this select 1) spawn server_playerDied};
 
+staticHeliWrecks = [
+	"UH1Wreck",
+    "UH1Wreck",
+    "Mi8Wreck",
+    "Mi8Wreck",
+    "C130J_wreck_EP1",
+    "UH60_wreck_EP1",
+    "UH60_wreck_EP1"];
+
 currentStaticHelis = []; // Storage for the heli marker numbers so that we don't spawn wrecks on top of live helis
 
 //Civilian Vehicle List - Random Spawns
@@ -82,7 +91,10 @@ militaryVehicles = ["UAZ_CDF",
 					"HMMWV_Ambulance",
 					"S1203_ambulance_EP1",
 					"GAZ_Vodnik_MedEvac",
-					"UralRepair_TK_EP1"];
+					"UralRepair_TK_EP1",
+					"MTVR_Reammo_DES_EP1",
+					"MTVR_Refuel_DES_EP1",
+					"MTVR_Repair_DES_EP1"];
 
 //Armed Military Vehicle List - Random Spawns
 armedMilitaryVehicles = ["ArmoredSUV_PMC",
@@ -101,8 +113,9 @@ armedMilitaryVehicles = ["ArmoredSUV_PMC",
                          "GAZ_Vodnik",
 						 "BAF_Jackal2_L2A1_D",
 						 "BAF_Jackal2_L2A1_w",
-						 "BAF_FV510_W",
-						 "M6_EP1"];
+						"UAZ_AGS30_TK_EP1",						 
+						 "BRDM2_TK_GUE_EP1",
+						 "T34_TK_GUE_EP1"];
 //Item Config
 pickupList = ["Satelit",
 				"EvMoney",
@@ -183,7 +196,8 @@ staticHeliList = ["UH1H_TK_GUE_EP1",
                 "MH6J_EP1",
                 "UH60M_MEV_EP1",
                 "AH6X_EP1",
-				"UH1H_TK_GUE_EP1"];
+				"UH1H_TK_GUE_EP1",
+				"UH60M_EP1"];
 
 //Random Weapon List - Change this to what you want to spawn in cars.
 vehicleWeapons = ["AK_107_kobra",
@@ -206,7 +220,7 @@ vehicleWeapons = ["AK_107_kobra",
 				"G36_C_SD_eotech", 			 
 				"G36K",
 				"Igla",
-				"Javelin",               
+              
 				"LeeEnfield",
 				"M1014",
 				"M16A2",
@@ -243,8 +257,8 @@ vehicleWeapons = ["AK_107_kobra",
                 "Strela",
 		        "Huntingrifle", 
                 "DMR",
-                "KSVK",
-                "M107",
+
+
                 "M24",
                 "M40A3", 
                 "M4SPR",
@@ -257,7 +271,7 @@ vehicleWeapons = ["AK_107_kobra",
                 "M8_carbine",
                 "M8_carbineGL",
                 "M8_compact",          
-                "BAF_AS50_scoped",
+
                 "M24_des_EP1",
                 "Sa58V_EP1", 
                 "Sa58V_RCO_EP1",           

@@ -68,7 +68,7 @@ if (isNil "FZF_IC_INIT") then   {
 sleep 1;
 true spawn playerSpawn;
 [] spawn FZF_IC_INIT;
-
+//[] execVM "client\functions\antiCheatClient.sqf";
 //Apply Custom Skins
 //hint "Start Apply Skin 1";
 //_h = [player] execVM "client\functions\applySkin.sqf";

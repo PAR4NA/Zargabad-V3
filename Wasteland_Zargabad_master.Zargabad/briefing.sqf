@@ -17,7 +17,7 @@ Use teamwork, no team killing<br/>
 <br/> <br/>
 Appeal ban on our forums at fpsunderground.com<br/>
 Join our teamspeak at ts.21.gameservers.com:9263 password: augfirst
-We will be offering custom features for $6 a month donations, see forums.
+We will be offering custom features for donations, see forums.
 	<br/>
 
 "
